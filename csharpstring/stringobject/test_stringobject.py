@@ -39,3 +39,8 @@ def test_st_format():
 	assert len(msg) == 17;
 
 """ static.Join() is used by, and therefor tested by Append, and Prepend """
+
+def test_len():
+	msg = instance("hello");
+	test = len(msg);
+	assert(test == 5);
