@@ -44,3 +44,8 @@ def test_len():
 	msg = instance("hello");
 	test = len(msg);
 	assert(test == 5);
+
+def test_int():
+	msg = instance("hello");
+	test = int(msg);
+	assert(test == 5);
