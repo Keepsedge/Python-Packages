@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "csharpstring"
-version = "0.0.2"
+version = "0.0.4"
 authors = [
   { name="JSullivan", email="energy.keeper@gmail.com" },
 ]
@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/Keepsedge/Python-Packages/tree/main"
+"Bug Tracker" = "https://github.com/Keepsedge/Python-Packages/issues"

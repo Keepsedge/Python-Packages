@@ -27,6 +27,8 @@ class instance:
     def __str__(self):
         return str(self.data)
 
+    def __len__(self):
+        return self.Length
     """
         Name: Substr
         Params: Int32 offset
