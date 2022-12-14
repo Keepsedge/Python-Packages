@@ -131,23 +131,3 @@ class static:
             retval = tmp
 
         return instance(str(retval).strip());
-"""
-def Test():
-    """ instanmce Tests """
-    value1 = instance("The quick brown fox");
-    print(value1)
-    value2 = instance("jumped over the lazy dog");
-    print(value2)
-    value3 = value1.Append(value2);
-    print(value3)
-    value4 = value3.Substr(10,30);
-    print(value4)
-    value5 = value3.Replace("quick", "speedy");
-    print(value5)
-
-    """ Static Tests """
-    date = "10/31/22";
-    time = "8:30 PM";
-    print(static.Format("It is $0 on $1; do you know where your children are?", time, date));
-    print(static.Join(" ", value1, value2));
-"""
